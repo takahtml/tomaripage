@@ -1,0 +1,55 @@
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+  
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+  
+  /* 繧ｹ繝槭�蜷代￠繝ｬ繧､繧｢繧ｦ繝� */
+  @media all and (max-width: 670px) {
+    .lesson {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+  
+    /* header-right繧ｯ繝ｩ繧ｹ縺ｮdisplay繧地one縺ｫ謖�ｮ壹＠縺ｦ縺上□縺輔＞ */
+   .header-right{
+     display:none;
+   }
+    /* menu-icon繧ｯ繝ｩ繧ｹ縺ｮdisplay繧鍛lock縺ｫ謖�ｮ壹＠縺ｦ縺上□縺輔＞  */
+   .menu-icon{
+     display:block;
+     
+   }
+   .top-wrapper h1{
+     font-size:24px;
+     
+   }
+   
+   .top-wrapper p{
+     font-size:14px;
+   }
+  }
